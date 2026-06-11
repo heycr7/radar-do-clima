@@ -1,1 +1,2 @@
-
+Radar do clima - Eduardo, Alexandre e Cleinaldo - O principal problema que o site resolve seria, no caso, de você ser pego de surpresa por algum eventual problema climático como tempestade, chuva, ventanias e afins. Ele também entrega a opção de você escolher a cidade na qual você poderia ir e se preparar. Caso você trabalhe e dependa de ônibus ou algo afim, você poderia se preparar ou mesmo ver algum local em específico a fim de evitar transtornos.
+Tecnologias usadas: HTML, CSS, JavaScript e API: openweathermap.org.
