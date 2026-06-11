@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radar do Clima</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" type="image/png" href="./img/icon.png">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form class="busca">
+
+            <input
+                type="search"
+                id="searchInput"
+                placeholder="Digite aqui sua localização!" />
+
+            <button type="submit">
+                🔍
+            </button>
+
+        </form>
+
+        <div class="resultado">
+
+            <div class="informacoes">
+
+                <img src="" alt="Clima">
+
+                <div class="temperatura">
+                    -- <sup>°C</sup>
+                </div>
+
+                <div class="titulo">
+                    --
+                </div>
+
+                <div class="info">
+
+                    <div class="temp">
+
+                        <div class="tempTitulo">
+                            Descrição
+                        </div>
+
+                        <div class="tempInfo">
+                            Céu limpo
+                        </div>
+
+                    </div>
+
+                    <div class="vento">
+
+                        <div class="ventoTitulo">
+                            Vento
+                        </div>
+
+                        <div class="ventoInfo">
+                            -- <span>km/h</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="aviso"></div>
+
+        <a href="previsao.html" class="btnPrevisao">
+            Ver previsão dos próximos dias
+        </a>
+
+        <footer>
+            <span class="de">De:</span>
+            <span class="nome">
+                Eduardo Alves, Alexandre, Cleinaldo
+            </span>
+        </footer>
+
+    </div>
+
+    <script src=".//js/script.js"></script>
+
+</body>
+
+</html>
